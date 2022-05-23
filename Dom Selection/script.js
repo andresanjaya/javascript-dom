@@ -88,3 +88,6 @@ sectionB.replaceChild(h2Baru, p4);
 liBaru.style.backgroundColor = 'lightgreen';
 pBaru.style.backgroundColor = 'lightgreen';
 h2Baru.style.backgroundColor = 'lightgreen';
+
+const h3 = document.getElementsByTagName('h3')[0];
+h3.style.backgroundColor = 'lightblue';
