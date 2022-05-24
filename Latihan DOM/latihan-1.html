@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Latihan DOM 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <style>
+        body {
+            text-align: center;
+        }
+        .light-blue {
+            background-color: lightblue;
+        }
+        button {
+           margin: 10px auto;
+        }
+        .square {
+            width: 25px;
+            height: 25px;
+            margin: 5px auto;
+        }
+        .red {
+            background-color: red;
+        }
+        .green {
+            background-color: green;
+        }
+        .blue {
+            background-color: blue;
+        }
+        input {
+            margin: 5px auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Play with Color</h1>
+    <button type="button" id="btnChangeColor">Button Change Color</button>
+    <br>
+    <button type="button" id="btnRandomizeColor">Button Randomize Color</button>
+    <br>
+
+    <div class="square red"></div>
+    <input type="range" name="sRed" min="0" max="255">
+
+    <div class="square green"></div>
+    <input type="range" name="sGreen" min="0" max="255">
+
+    <div class="square blue"></div>
+    <input type="range" name="sBlue" min="0" max="255">
+
+    <br>
+    <br>
+
+    <script src='latihan-1.js'></script>
+</body>
+</html>
